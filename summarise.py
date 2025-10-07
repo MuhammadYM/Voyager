@@ -16,7 +16,7 @@ async def scrape_reviews(url):
         await page.goto(url)
         
         # Add a delay to keep the browser open
-        print("Browser opened successfully! Press Ctrl+C to close.")
+        print("Browser opened successfully!")
         await asyncio.sleep(10)  # Keep open for 10 seconds
         
     finally:
